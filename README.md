@@ -2,6 +2,12 @@
 # Accident Detection and Emergency Call System
 
 This project is designed to detect road accidents using camera input and immediately initiate an emergency alert or call. It combines real-time video processing with machine learning to identify accident scenarios and notify responders.
+**Demo video **
+
+
+
+https://github.com/user-attachments/assets/6180fcf1-6f5f-4a9d-8762-70529ad5004c
+
 
 ## 🚀 Features
 
@@ -56,6 +62,10 @@ accident-detection-emergency-call/
 - On detecting an accident, the system can trigger an alert function (email/SMS/call) using a service like Twilio or integrated GSM module.
 
 ## 📌 Notes
+
+
+https://github.com/user-attachments/assets/ec7a2bc7-5dde-4cde-99f7-6ca4e1836bc7
+
 
 - Ensure camera access is allowed.
 - Use real-world footage carefully and responsibly during testing.
