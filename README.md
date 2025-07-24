@@ -40,23 +40,47 @@ accident-detection-emergency-call/
 
 ## 🔧 How to Run the Project
 
-1. **Install dependencies:**
+1. **Install Python dependencies:**
 
    ```bash
    pip install opencv-python tensorflow numpy
    ```
 
-2. **Run the main script:**
+2. **For web-based version, install additional dependencies:**
+
+   ```bash
+   pip install flask twilio
+   ```
+
+3. **Run the main script:**
 
    ```bash
    python main.py
    ```
 
-3. **To train the model (optional):**
+4. **To train the model (optional):**
 
    ```bash
    python train.py
    ```
+
+## 📋 Prerequisites
+
+- Python 3.7 or higher
+- Webcam or camera device
+- Internet connection for Twilio integration
+- Valid Twilio account credentials
+
+## 🐍 Python Dependencies
+
+This project uses Python and pip for dependency management. **Do not use npm or Node.js commands.**
+
+Required packages:
+- `opencv-python` - For camera and video processing
+- `tensorflow` - For machine learning model
+- `numpy` - For numerical computations
+- `flask` - For web interface (if using web version)
+- `twilio` - For emergency alerts and calls
 
 ## 📞 Emergency Alert Logic
 
